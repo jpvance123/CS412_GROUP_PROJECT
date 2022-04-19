@@ -6,13 +6,18 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/MyApps/DJNativeSwing/DJNativeSwing.jar"/>
-	<classpathentry kind="lib" path="C:/MyApps/DJNativeSwing/DJNativeSwing-SWT.jar"/>
-	<classpathentry kind="lib" path="C:/MyApps/DJNativeSwing/org.eclipse.swt.win32.win32.x86-4.3.jar"/>
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/MyApps/openjfx-18_windows-x64_bin-sdk/javafx-sdk-18/lib/javafx.base.jar"/>
+	<classpathentry kind="lib" path="C:/MyApps/openjfx-18_windows-x64_bin-sdk/javafx-sdk-18/lib/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="C:/MyApps/openjfx-18_windows-x64_bin-sdk/javafx-sdk-18/lib/javafx.fxml.jar"/>
+	<classpathentry kind="lib" path="C:/MyApps/openjfx-18_windows-x64_bin-sdk/javafx-sdk-18/lib/javafx.graphics.jar"/>
+	<classpathentry kind="lib" path="C:/MyApps/openjfx-18_windows-x64_bin-sdk/javafx-sdk-18/lib/javafx.media.jar"/>
+	<classpathentry kind="lib" path="C:/MyApps/openjfx-18_windows-x64_bin-sdk/javafx-sdk-18/lib/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="C:/MyApps/openjfx-18_windows-x64_bin-sdk/javafx-sdk-18/lib/javafx.web.jar"/>
+	<classpathentry kind="lib" path="C:/MyApps/openjfx-18_windows-x64_bin-sdk/javafx-sdk-18/lib/javafx-swt.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
