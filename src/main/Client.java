@@ -22,7 +22,7 @@ import javafx.stage.Stage;
 
 public class Client extends Application{
 
-	private String filePath = "C:\\Users\\chowd\\Downloads\\rickroll.mp4"; //TODO add video inside project
+	private String filePath = "C:\\Users\\davis\\Downloads\\rickroll.mp4"; //TODO add video inside project
 	
 	private Socket connection; // connection to server
 	private Scanner input; // input from server
@@ -79,7 +79,7 @@ public class Client extends Application{
 		} // end catch
 		
 		Media media = new Media(new File(filePath).toURI().toString());
-		MediaPlayer mediaPlayer = new MediaPlayer(media);
+		final MediaPlayer mediaPlayer = new MediaPlayer(media);
 		MediaView mediaView = new MediaView(mediaPlayer);
 		
 		//setting view to fit the stage aspect ratio
@@ -92,7 +92,6 @@ public class Client extends Application{
 		Button pauseButton = new Button("Pause");
 		pauseButton.setLayoutX(39);
 		pauseButton.setOnAction(new EventHandler<ActionEvent>() {
-			@Override
 			public void handle(ActionEvent actionEvent) {
 				mediaPlayer.pause();
 				//TODO send message to server for all clients to pause
@@ -101,7 +100,6 @@ public class Client extends Application{
 		
 		Button playButton = new Button("Play");
 		playButton.setOnAction(new EventHandler<ActionEvent>() {
-			@Override
 			public void handle(ActionEvent actionEvent) {
 				mediaPlayer.play();
 				//TODO send message to server for all clients to play
